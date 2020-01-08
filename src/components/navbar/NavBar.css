@@ -1,0 +1,41 @@
+header {
+    border: #e6be67 solid 3px;
+    background-color: #c98c6d;
+    width: 100%;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navTitle {
+    font-family: 'Amarante', cursive;
+    font-size: 50px;
+    color: #e6be67;
+    padding-left: 20px;
+  }
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-right: 20px;
+  }
+  .navLink {
+    color: #e6be67;
+    font-size: 30px;
+    font-family: 'Amarante', cursive;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  nav .navContainer a:hover {
+    color: maroon;
+  }
+  nav span {
+    cursor: pointer;
+ }
+ nav span:hover {
+  color: maroon;
+ }
