@@ -1,7 +1,7 @@
-// import { Route }  from "react-router-dom";
+import { Route }  from "react-router-dom";
 import React, { Component } from "react";
-import Landing from "./landing/Landing"
-import PortfolioList from "./work/PortfolioList"
+import Home from "./home/Home"
+import WorkList from "./work/WorkList"
 import About from "./about/About"
 import Contact from "./contact/Contact"
 // import NavBar from "./navbar/NavBar";
@@ -11,26 +11,15 @@ export default class ApplicationViews extends Component {
     render() {
         return (
             <>
-            <Landing />
-            <About />
-            <PortfolioList />
-            <Contact />
-        </>
-        )
-    }
-}
-{/* <Route
+                <Route
                     exact path="/" render={props => {
-                        return <Landing {...props} />
-                                <About {...props} />
-                                <PortfolioList {...props} />
-                                <Contact {...props} />
-                    
+                        return <Home {...props} />
+
                     }}
                 />
                 <Route
                     exact path="/work" render={props => {
-                        return <PortfolioList {...props} />
+                        return <WorkList {...props} />
                     }}
                 />
                 <Route
@@ -42,4 +31,9 @@ export default class ApplicationViews extends Component {
                     exact path="/contact" render={props => {
                         return <Contact {...props} />
                     }}
-                /> */}
+                />
+                </>
+        )
+    }
+
+}

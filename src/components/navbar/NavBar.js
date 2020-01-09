@@ -11,15 +11,15 @@ class NavBar extends Component {
             <header>
                 <nav className="navContainer">
                     <div className="navTitle">
-                <ul className="navLinks">
-                    <li className="navLink"><a href="#home">HOME</a></li>
-                    <li className="navLink"><a href="#about">ABOUT</a></li>
-                    <li className="navLink"><a href="#work">WORK</a></li>
-                    <li className="navLink"><a href="#contact">CONTACT</a></li>
-                </ul>
-                </div>
+                    <li><Link className="navLink" to="/">SUMMER LIDDINGTON</Link></li>
+                    </div>
+                    <ul className="navLinks">
+                        <li><Link className="navLink" to="/about">ABOUT</Link></li>
+                        <li><Link className="navLink" to="/work">WORK</Link></li>
+                        <li><Link className="navLink" to="/contact">CONTACT</Link></li>
+                    </ul>
                 </nav>
-                </header>
+            </header>
             </>
 
         );

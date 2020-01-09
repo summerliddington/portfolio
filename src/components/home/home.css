@@ -1,0 +1,5 @@
+.introSection {
+    border-style: dashed;
+    display: flex;
+    flex-direction: row;
+}
